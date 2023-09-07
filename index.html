@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>HNG Stage 1 Project</title>
+  </head>
+  <body>
+    <div class="personalInfo">
+      <h1 data-testid="slackUserName" class="userName">OSEJI</h1>
+
+      <img
+        data-testid="slackDisplayImage"
+        src="avatar.jpg"
+        alt="Oseji"
+        class="profileImg"
+      />
+
+      <div class="Details">
+        <p data-testid="myTrack">
+          <span style="font-weight: bold">TRACK : </span>Frontend Development
+        </p>
+        <p>
+          <a data-testid="githubURL" href="#">Click here </a>to access my Github
+          repository
+        </p>
+      </div>
+    </div>
+
+    <div class="timeDisplay">
+      <p data-testid="currentDayOfTheWeek" class="day">day</p>
+      <p data-testid="currentUTCTime" class="time">time</p>
+    </div>
+  </body>
+</html>
