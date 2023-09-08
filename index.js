@@ -18,4 +18,4 @@ const dayNum = date.getDay();
 const dayName = daysOfTheWeek[dayNum];
 
 displayDay.textContent = dayName;
-displayTime.textContent = date.getTime();
+displayTime.textContent = Date.now();
