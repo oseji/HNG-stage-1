@@ -5,7 +5,6 @@
 }
 
 body {
-  padding: 20px 60px;
   background-color: black;
 }
 
@@ -40,4 +39,10 @@ a {
 
 .infoHeading {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
 }
