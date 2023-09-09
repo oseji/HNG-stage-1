@@ -11,7 +11,7 @@ const daysOfTheWeek = [
   "Wednesday",
   "Thursday",
   "Friday",
-  "Saturday",
+  "saturday",
 ];
 
 const dayNum = date.getUTCDay();
