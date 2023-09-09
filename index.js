@@ -18,4 +18,4 @@ const dayNum = date.getUTCDay();
 const dayName = daysOfTheWeek[dayNum];
 
 displayDay.textContent = dayName;
-displayTime.textContent = date.toUTCString();
+displayTime.textContent = date.getTime();
