@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+[data-testid]{
+  font-weight:bold;
+}
+
 .container {
   height: auto;
   width: 40%;
@@ -31,14 +35,10 @@ a {
 
 .details {
   margin: 0 auto 30px;
-  /*width: 224px;*/
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.infoHeading {
-  font-weight: bold;
 }
 
 @media only screen and (max-width: 1024px) {
