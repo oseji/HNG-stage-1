@@ -1,4 +1,4 @@
-"use"use strict";
+"use strict";
 
 const displayDay = document.querySelector('[data-testid = "currentDayOfTheWeek"]');
 const displayTime = document.querySelector('[data-testid = "currentUTCTime"]');
