@@ -1,10 +1,11 @@
-"use strict";
+"use"use strict";
 
 const displayDay = document.querySelector(".day");
 const displayTime = document.querySelector(".time");
 
-const date = new Date();
-const daysOfTheWeek = [
+const updateTime = ()=>{
+  const date = new Date();
+  const daysOfTheWeek = [
   "Sunday",
   "Monday",
   "Tuesday",
@@ -18,4 +19,7 @@ const dayNum = date.getUTCDay();
 const dayName = daysOfTheWeek[dayNum];
 
 displayDay.textContent = dayName;
-displayTime.textContent = date.getTime();
+displayTime.textContent =date.getTime();
+}
+
+setInterval(updateTime,10)
