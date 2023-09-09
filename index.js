@@ -14,8 +14,9 @@ const daysOfTheWeek = [
   "Saturday",
 ];
 
-const dayNum = date.getDay();
+const dayNum = date.getUTCDay();
 const dayName = daysOfTheWeek[dayNum];
 
 displayDay.textContent = dayName;
-displayTime.textContent = Date.now();
+displayTime.textContent = date.toLocaleTimeString(undefined, { timeZoneName: 'short' });
+
